@@ -47,21 +47,21 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 40:
-        bar = "◉——————————"
+        bar = "คk——————————"
     elif 10 < umm < 20:
-        bar = "—◉—————————"
+        bar = "—คk—————————"
     elif 20 < umm < 30:
-        bar = "——◉————————"
+        bar = "——คk————————"
     elif 30 <= umm < 40:
-        bar = "———◉———————"
+        bar = "———คk———————"
     elif 40 <= umm < 50:
-        bar = "————◉——————"
+        bar = "————คk——————"
     elif 50 <= umm < 60:
-        bar = "——————◉————"
+        bar = "——————คk————"
     elif 50 <= umm < 70:
-        bar = "———————◉———"
+        bar = "———————คk———"
     else:
-        bar = "——————————◉"
+        bar = "——————————คk"
 
     buttons  = [
 
@@ -321,21 +321,21 @@ def stream_markup_timer2(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 40:
-        bar = "◉——————————"
+        bar = "คk——————————"
     elif 10 < umm < 20:
-        bar = "—◉—————————"
+        bar = "—คk—————————"
     elif 20 < umm < 30:
-        bar = "——◉————————"
+        bar = "——คk————————"
     elif 30 <= umm < 40:
-        bar = "———◉———————"
+        bar = "———คk———————"
     elif 40 <= umm < 50:
-        bar = "————◉——————"
+        bar = "————คk——————"
     elif 50 <= umm < 60:
-        bar = "——————◉————"
+        bar = "——————คk————"
     elif 50 <= umm < 70:
-        bar = "———————◉———"
+        bar = "———————คk———"
     else:
-        bar = "——————————◉"
+        bar = "——————————คk"
 
 
     buttons = [
@@ -521,21 +521,21 @@ def panel_markup_4(_, vidid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 40:
-        bar = "◉——————————"
+        bar = "คk——————————"
     elif 10 < umm < 20:
-        bar = "—◉—————————"
+        bar = "—คk—————————"
     elif 20 < umm < 30:
-        bar = "——◉————————"
+        bar = "——คk————————"
     elif 30 <= umm < 40:
-        bar = "———◉———————"
+        bar = "———คk———————"
     elif 40 <= umm < 50:
-        bar = "————◉——————"
+        bar = "————คk——————"
     elif 50 <= umm < 60:
-        bar = "——————◉————"
+        bar = "——————คk————"
     elif 50 <= umm < 70:
-        bar = "———————◉———"
+        bar = "———————คk———"
     else:
-        bar = "——————————◉"
+        bar = "——————————คk"
         
     buttons = [
         [
